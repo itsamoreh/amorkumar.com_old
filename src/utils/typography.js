@@ -1,7 +1,7 @@
 import Typography from "typography"
 
 const config = {
-  baseFontSize: `18px`,
+  baseFontSize: `16px`,
   googleFonts: [
     {
       name: "Francois One",
@@ -14,6 +14,15 @@ const config = {
   ],
   headerFontFamily: ["Francois One", "sans-serif"],
   bodyFontFamily: ["Lato", "sans-serif"],
+  overrideStyles: (options, styles) => ({
+    h1: {
+      // fontSize: `1.2em`,
+      // textTransform: "uppercase",
+    },
+    p: {
+      fontSize: "18px",
+    },
+  }),
 }
 
 const typography = new Typography(config)
