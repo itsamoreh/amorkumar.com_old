@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{145:function(o,e,a){o.exports={app:"layout-module--app--2fjLG"}},146:function(o,e,a){o.exports={page:"about-module--page--1h1ls",pageInner:"about-module--page-inner--36wJz",red:"about-module--red--EdR6R",gray:"about-module--gray--X8kQi"}}}]);
+//# sourceMappingURL=styles-93382fee6fcee935cd81.js.map
