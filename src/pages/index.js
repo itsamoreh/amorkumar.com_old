@@ -1,5 +1,9 @@
 import React from "react"
-// import Layout from "../components/layout"
-import Home from "./home/home"
+import Layout from "../components/layout/layout"
+import About from "../components/about/about"
 
-export default () => <Home />
+export default () => (
+  <Layout>
+    <About />
+  </Layout>
+)

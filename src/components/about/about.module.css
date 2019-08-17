@@ -1,0 +1,52 @@
+.page {
+  font-family: "Francois One", sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-size: 50px;
+  border: 25px solid #8d99ae;
+}
+
+.page-inner {
+  padding: 1.25em;
+  max-width: 800px;
+}
+
+.red {
+  color: #ef233c;
+}
+
+.gray {
+  color: #8d99ae;
+}
+
+h1 {
+  font-size: 1em;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+  background: #edf2f4;
+  background-clip: text;
+  color: transparent;
+}
+
+a {
+  display: inline-block;
+  color: #8d99ae;
+}
+
+a h2 {
+  font-size: 1em;
+  text-decoration: underline;
+  text-decoration-color: #ef233c;
+}
+
+@media screen and (max-width: 800px) {
+  .page {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page {
+    font-size: 22px;
+  }
+}
