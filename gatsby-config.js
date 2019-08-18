@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/amorkumar.com",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
